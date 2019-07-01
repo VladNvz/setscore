@@ -1,0 +1,441 @@
+/* Панель поиска */
+#search {
+	margin-top: 10px;
+    display: inline-block;
+}
+
+#search form {
+	position: relative;
+	width: 232px;
+	margin: 0 10px;
+}
+
+#search input[type='search'], #search input[type='submit'] {
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+#search input[type='search']{
+	width: 100%;
+	height: 42px;
+	background: #fcfdf1;
+	padding-left: 15px;
+	padding-right: 40px;
+	font-size: .7em;
+}
+
+#search input[type='submit']{
+	background: #6592c1 url("../icon/search.png") no-repeat center center;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: -2px;
+	right: 8px;
+}
+
+/* Панель пользователя */
+
+#auth_panel {
+	border: 1px solid black;
+    width: 100px;
+    color: #fff;
+    background-color: #306c9e;
+    margin-top: 12px;
+    display: inline-block;
+    float: right;
+	font-weight: bold;
+}
+
+#label_login_field {
+	width: 78%;
+	height: 100%;
+	display: block;
+	padding: 5px 5px 5px 16px;
+	user-select: none;
+}
+
+#label_login_field:hover {
+	background-color: #57a3e2;
+}
+
+#auth_panel form {
+    position: absolute;
+	display: none;
+    width: 220px;
+    background: #423143;
+    padding: 10px;
+    margin-left: -139.5px;
+    margin-top: 10px;
+}
+
+#checkbox {
+	text-align: right;
+	display: none;
+}
+
+#checkbox:checked ~ #auth {
+	display: block;
+}
+
+label, input[type="submit"] {
+	cursor: pointer;
+}
+
+#auth_links {
+	font-size: 75%;
+	padding: 0 13px;
+}
+
+#auth_links a {
+	color: #ffddb9;
+	text-decoration: none;
+}
+
+#auth_links a:visited {
+	color: #ffb9b9;
+}
+
+#auth_links a:hover {
+	text-decoration: underline;
+}
+
+#label_login, #label_password {
+	border-radius:2px 0 0 2px;
+	float: left;
+	height:34px;
+	width:33px;
+}
+
+#login, #password {
+	border-radius: 0 2px 2px 0;
+	border: 0;
+	font-size: 18px;
+	height: 32px;
+	margin: 0 0 10px 0;
+	outline: 0;
+	padding-left:10px;
+	width: 156px;
+}
+
+#label_login {
+	background:#da2424 url('../icon/login.png') no-repeat center;
+}
+
+#label_password{
+	background:#da2424 url('../icon/password.png') no-repeat center;
+}
+
+::-webkit-input-placeholder {
+	-webkit-font-smoothing: antialiased;
+	color:#999;
+	font-size:16px;
+}
+
+::-moz-input-placeholder {  
+	color:#999;
+	font-size:16px;
+}
+
+#label_remember {
+	color: #cec6c6;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+#label_remember > input:checked + span {
+	color: red;
+}
+
+input[type="submit"] {
+	height: 30px;
+	width: 200px;
+	margin: 10px 0;
+}
+
+/****************************************************/
+
+#questions span {
+	display: none;
+	background-color: red;
+}
+
+#teech_book {
+	background-color: #fff1cb;
+    padding-top: 13px;
+}
+
+#teech_book li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+.chapter {
+	background-color: #ff6a00;
+	padding: 10px 0 10px 23px !important;
+	color: #f2fdff;
+	font-size: 115%;
+	font-weight: bold;
+}
+
+#teech_book a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 8px 21px;
+	border: 1px solid #bdb99c;
+	border-radius: 7px;
+	background-color: #f9e7b7;
+	box-shadow: 2px 2px 1px 1px #a76565;
+}
+#teech_book a:hover {
+	background-color: #feffb0;
+}
+
+/****************************************************/
+
+.share {
+	background-color: #b0ece1;
+	padding: 7px 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ya-share2 {
+	text-align: center;
+}
+
+/****************************************************/
+
+#img_captcha {
+	text-align: center;
+	cursor: pointer;
+}
+
+.highlite_word {
+	color: #B6373C;
+	background-color: #F1FFBA;
+}
+
+#reg {
+	margin: 10px auto 15px;
+}
+
+#reg label {
+	display: block;
+}
+
+#reg input {
+	font-size:76%;
+	width: 19em;
+	padding: .5em;
+}
+
+#reg select {
+	width: 19em;
+	padding: .5em;
+	font-size: 76%;
+}
+
+
+.article_info {
+	background-color: #D7E3E7;
+	font-size: 75%;
+	margin-top: 7px;
+	padding: 5px 9px;
+}
+
+.notice_copyright {
+	background-color: #FCEBA9;
+	padding: 9px;
+	width: 554px;
+	box-shadow: 1px 4px 20px #B1B1B1;
+	margin: 10px auto 15px;
+	cursor: default;
+	line-height: 1.5em;
+}
+
+.notice_sign {
+	background-color: #F1F1A2;
+	border: 10px double #E45757;
+	color: #E61749;
+	border-radius: 100px;
+	height: 123px;
+	width: 123px;
+	float: left;
+	font: bold 104px arial;
+	text-align: 	center;
+	box-shadow: 	1px 4px 20px #3C3636;
+	margin-right: 12px;
+}
+
+#test_block {
+	display: 	block;
+}
+
+#left {
+	height: 50%;
+}
+
+#main {
+	margin: 10px 15px 0 37%;
+}
+
+#article {
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+#article p {
+	text-indent: 2em;
+	margin: 0;
+}
+
+#main h1 {
+    background-color: #418c7b;
+    background-color: #5d99c5;
+    background-color: #7694c1;
+    color: #fff6f6;
+    padding: 9px 21px;
+    font-size: 150%;
+    margin: 0 0 13px 0;
+}
+
+dfn {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.definition {
+	text-indent: 0 !important;
+	display: block;
+	border-left: 4px double black;
+	padding-left: 1.7em;
+	margin: .7em 0;
+}
+
+.catbox {
+	width: 34%;
+	float: left;
+}
+
+.catbox_header{
+	font-weight: bold;
+	font-size: 120%;
+	background-color: #9AB6D1;
+	color:  #fff;
+	border-radius: 7px 7px 0 0;
+	text-align: center;
+	padding: 7px 0;
+	cursor: default;
+}
+
+.catbox_content {
+	background-color: #EAF4FF;
+}
+
+.catbox_content a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 8px 21px;
+}
+
+.catbox_content a:hover {
+	background-color: rgb(210, 220, 251);
+}
+	
+.catbox_content a:active {
+	background-color: rgb(200, 203, 201);
+}
+
+.catbox_content ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0;
+}
+.catbox_content ul ul {
+	padding-left: 21px;
+}
+
+body {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 37em;
+}
+
+a {
+
+}
+
+
+.right {
+	float: right;
+}
+
+
+
+#top_menu ul{
+	margin: 0;
+	float: right;
+	
+}
+
+#top_menu a{
+	text-decoration: none;
+	display: block;
+	padding: 17px 21px;
+	color: white;
+	border-radius: 9px;
+}
+
+
+#top_menu li {
+	list-style-type: none;
+}
+
+#top_menu a:hover {
+	background-color: #4e7596;
+}
+
+#top_menu a:active {
+	background-color: #6e8bb7;
+}
+
+#header {
+	background-color: #6592c1;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#header h2 {
+    width: 31%;
+	float: left;
+    margin: 0;
+	padding: 0;
+}
+
+#top_menu {
+	float: right;
+	width: 69%;
+}
+
+#header h2 a {
+	padding: 0 0 8px 21px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 129%;
+}
+
+#footer {
+	background-color: #E7EEF0;
+	display: block;
+	padding: 1px 0;
+	text-align: center;
+}
+
+.clear{
+	clear:  both;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Владислав Назаров">
+	<meta name="description" content="Главная страница сайта setScore.ru" />
+	<meta name="keywords" content="сайт setScore.ru" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- ********** CSS ********** -->
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+	<!-- ********** Шапка сайта ********** -->
+	<div id="header">
+		
+		<header><h2><a href="index.html">[setScore.ru]</a></h2></header>
+		
+		<div id="search">
+			<form name="search" action="/search" method="get">
+				<input type="search" name="query" placeholder="Поиск">
+				<input type="submit" value="">
+			</form>
+		</div>
+		
+		<div id="auth_panel">
+			<label id="label_login_field" for="checkbox">Войти</label>
+			<input type="checkbox" id="checkbox">
+			<form name="auth" id="auth" action="/login" method="post">
+				<label id="label_login" for="login"></label>
+					<input type="text" name="login" id="login" placeholder="Логин" required /><br />
+				
+				<label id="label_password" for="password"></label>
+					<input type="password" name="password" id="password" placeholder="Пароль" required /><br />
+				
+				<label id="label_remember">
+					<input type="checkbox" name="remember"><span>Запомнить</span>
+				</label><br />
+				
+				<input type="submit" value="Войти"><br />
+				<div id="auth_links">
+					<a href="/reg">Регистрация</a><br />
+					<a href="/remind_login">Напомнить логин</a><br />
+					<a href="/reset_password">Заменить пароль</a>
+				</div>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	
+	<!-- ********** Середина сайта ********** -->
+	<aside>
+		<div id="left">
+			<div class="catbox">
+				<div class="catbox_header">Уроки и статьи</div>
+				<div class="catbox_content">
+					<ul>
+						<li><a href="teoriya-muzyki.html">Теория музыки</a></li>
+						<li>
+							<ul>
+								<li><a href="teoriya-muzyki-osnovy.html">Учебник теории музыки</a></li>
+								<li><a href="teoriya-muzyki-stati.html">Статьи по теории музыки</a></li>
+								<li><a href="teoriya-muzyki-slovar.html">Словарь теории музыки</a></li>
+							</ul>
+						</li>
+						<li><a href="garmoniya.html">Гармония</a></li>
+						<li>
+							<ul>
+								<li><a href="garmoniya-osnovy.html">Учебник гармонии</a></li>
+								<li><a href="garmoniya-stati.html">Статьи по гармонии</a></li>
+								<li><a href="garmoniya-zadachi.html">Задачи по гармонии</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</aside>
+	
+	<main>
+		<div id="main">
+			<h1>Звук и его свойства</h1>
+			<article>
+				<div id="article">
+					<p>Вся музыка, какой бы сложной она ни была, состоит из звуков. Они рождаются, когда человек поёт или играет на музыкальном инструменте. Это своеобразные кирпичики, из которых строится всё музыкальное разнообразие. Так что же такое звук?</p>
+					<p><span class="definition"><dfn>Звук</dfn> — это волна в воздухе от колебания упругого тела.</span></p>
+					<p><span class="definition"><dfn>Упругое тело</dfn> — это источник звука: язычок баяна, струна гитары или фортепиано, барабанная мембрана, человеческие связки.</span></p>
+					<p>Также звуком называют ощущения от воздействия звуковых волн на органы слуха.</p>
+					<p class="list_title">У каждого звука есть четыре свойства:</p>
+					<ul>
+						<li><strong>высота</strong> — частота колебаний в секунду;</li>
+						<li><strong>громкость</strong> — амплитуда колебания;</li>
+						<li><strong>длительность</strong> — время колебания;</li>
+						<li><strong>тембр</strong> — окраска звука, зависит от <a href="oberton.html">обертонов</a>.</li>
+					</ul>
+					<p>Свойства звука зависят от характеристик упругого тела и приложенной к нему энергии. Рассмотрим их детальнее.</p>
+					<h2>Высота</h2>
+					<p>Частота колебаний зависит от массы тела. Медведь и слон ревут низко, мышь пищит высоко. Наоборот не бывает. В кино несоответствие между размером персонажа и его голосом порождает комический эффект. Громила с писклявым голоском всегда вызывает смех, а миловидная девушка, говорящая баритоном, — недоумение. Или представьте себе птичку, поющую басом.</p>
+					<p>С увеличением длины и толщины струны или металлической пластины звук понижается. И наоборот, укорачивая струну, мы повышаем звук. Почему так происходит?</p>
+					<p>Тело совершает строго определённое количество колебаний за одну секунду. Неважно, как сильно по нему ударят — ему всё равно. Быстрее оно от этого не станет. С ростом массы телу всё сложнее вибрировать, а энергии для этого требуется больше. Маленький источник звука требует меньше энергии, поэтому вибрирует быстрее и звучит выше. Из-за этого человеку сложно высокие звуки петь тихо.</p>
+					<p>Приближаясь к месту, где звучит музыка, в первую очередь мы слышим низкие звуки, потом средние и высокие. Люди, живущие рядом с кафе или рестораном, знают это на собственном опыте.</p>
+					<p class="list_title">Запомнить зависимость высоты звука от скорости колебания поможет цепочка:</p>
+					<ul>
+						<li>больше масса, длина, толщина &rarr; меньше колебаний в секунду &rarr; ниже звук;</li>
+						<li>меньше масса, длина, толщина &rarr; больше колебаний в секунду &rarr; выше звук.</li>
+					</ul>
+					<h2>Высота</h2>
+					<p class="list_title">Громкость звучания зависит от амплитуды — границ, в которых колеблется тело:</p>
+					<ul>
+					<li>больше энергии &rarr; широкая амплитуда &rarr; громче звук;</li>
+					<li>меньше энергии &rarr; узкая амплитуда &rarr; тише звук.</li>
+					</ul>
+					<p>Следует помнить, что частота звука никак не зависит от амплитуды, а высота — от громкости. Неважно, с какой силой мы извлечём звук, будет он громким или тихим, — высота звука сохранится и будет неизменной.</p>
+					<h2>Длительность</h2>
+					<p>Длительность звука зависит от количества энергии, находящейся в теле. По мере того, как энергия иссякает, звук становится тише, затухает. Если эти колебания постоянно подпитывать, звук будет тянуться вечно.</p>
+					<h2>Тембр</h2>
+					<p>Тембр украшает звук, делает его красивым и приятным. Благодаря ему мы можем отличить женский голос от мужского, звук фортепиано от звука челесты, гудок паровоза от заводской сирены. Звук, лишённый тембра, кажется нам безжизненным и на слух воспринимается как неприятный.</p>
+					<h2>Вопросы для самопроверки</h2>
+					<ol>
+						<li>Что такое звук?</li>
+						<li>Назовите свойства звука.</li>
+						<li>Как увеличить высоту звука?</li>
+						<li>От чего зависит длительность?</li>
+						<li>Станет ли звук выше, если мы сделаем его громче?</li>
+					</ol>		
+				</div>
+			</article>
+			<div class="article_info">
+				<span class="article-author">Автор: Владислав Назаров</span>
+				&bull;
+				<span class="article-addate">19.07.2018, 20:24:06</span>
+			</div>
+			<div class="notice_copyright">
+				<span class="notice_sign">!</span>
+				<span class="notice_text">Копирование материалов разрешается только с указанием автора (Владислав Назаров) и индексируемой прямой ссылкой на сайт 
+				(<a href="http://setscore.local">http://setscore.local</a>)</span>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</main>
+	
+	<!-- ********** Подвал ********** -->
+	<footer>
+		<div id="footer">
+			<p class="copyright"><i>Copyright &copy;</i>
+				2019, Владислав Назаров. Все права защищены
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

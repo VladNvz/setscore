@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Владислав Назаров">
+	<meta name="description" content="Главная страница сайта setScore.ru" />
+	<meta name="keywords" content="сайт setScore.ru" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- ********** CSS ********** -->
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+	<!-- ********** Шапка сайта ********** -->
+	<div id="header">
+		
+		<header><h2><a href="index.html">[setScore.ru]</a></h2></header>
+		
+		<div id="search">
+			<form name="search" action="/search" method="get">
+				<input type="search" name="query" placeholder="Поиск">
+				<input type="submit" value="">
+			</form>
+		</div>
+		
+		<div id="auth_panel">
+			<label id="label_login_field" for="checkbox">Войти</label>
+			<input type="checkbox" id="checkbox">
+			<form name="auth" id="auth" action="/login" method="post">
+				<label id="label_login" for="login"></label>
+					<input type="text" name="login" id="login" placeholder="Логин" required /><br />
+				
+				<label id="label_password" for="password"></label>
+					<input type="password" name="password" id="password" placeholder="Пароль" required /><br />
+				
+				<label id="label_remember">
+					<input type="checkbox" name="remember"><span>Запомнить</span>
+				</label><br />
+				
+				<input type="submit" value="Войти"><br />
+				<div id="auth_links">
+					<a href="/reg">Регистрация</a><br />
+					<a href="/remind_login">Напомнить логин</a><br />
+					<a href="/reset_password">Заменить пароль</a>
+				</div>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	
+	<!-- ********** Середина сайта ********** -->
+	<aside>
+		<div id="left">
+			<div class="catbox">
+				<div class="catbox_header">Уроки и статьи</div>
+				<div class="catbox_content">
+					<ul>
+						<li><a href="teoriya-muzyki.html">Теория музыки</a></li>
+						<li>
+							<ul>
+								<li><a href="teoriya-muzyki-osnovy.html">Учебник теории музыки</a></li>
+								<li><a href="teoriya-muzyki-stati.html">Статьи по теории музыки</a></li>
+								<li><a href="teoriya-muzyki-slovar.html">Словарь теории музыки</a></li>
+							</ul>
+						</li>
+						<li><a href="garmoniya.html">Гармония</a></li>
+						<li>
+							<ul>
+								<li><a href="garmoniya-osnovy.html">Учебник гармонии</a></li>
+								<li><a href="garmoniya-stati.html">Статьи по гармонии</a></li>
+								<li><a href="garmoniya-zadachi.html">Задачи по гармонии</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</aside>
+	
+	<main>
+		<div id="main">
+			<h1>Как освоить музыку?</h1>
+			<article>
+				<div id="article">
+					<p>Музыка — это искусство, которое под силу каждому. Если Вы хотите научиться классно петь, играть на музыкальных инструментах, заниматься аранжировкой или сочинением произведений, то для этого нужны <strong>теоретические знания</strong>. Да, можно обойтись и без них. Но зачем тратить свои творческие силы на решение тривиальных задач, когда уже есть готовые ответы?</p>
+					<p>Потратив немного времени на изучение теоретических дисциплин, Вы создадите себе хороший фундамент для практической музыкальной деятельности. С целью облегчить эту задачу был создан этот сайт, на котором Вы найдёте полезную информацию.</p>
+					<p class="list_title">Прежде чем приступать к занятиям стоит развеять несколько мифов:</p>
+					<ol>
+						<li>Музыка — это сложно, её нельзя освоить.<br />Не сложнее арифметики или химии, а вообще всё зависит от подачи материала. Человек рождается, не умея ни читать, ни писать, но со временем и на шпагат садится, и социальные сети юзает, и искусственный интеллект создаёт.</li>
+						<li>Музыка строится на чувствах и эмоциям, в ней нет логики и её нельзя понять разумом.<br />Ничего подобного. Она целиком логична, в её основе лежат законы математики, физики и очень-очень много психологии.</li>
+						<li>Нужно быть очень талантливым, родится музыкантом, иметь запредельные способности.<br />Американский изобретатель Томас Эдисон говорил, что любой талант на 90% состоит из труда и упорства. Если бы Бах и Чайковский не занимались, то мы не наслаждались бы их великолепными произведениями. Музыкальные способности есть у каждого человека — они нужны для выживания. Конечно, природные задатки играют свою роль, но без желания они ничто. Поэтому, если человек хочет научиться, то школа тут бессильна… :-)</li>
+					</ol>
+					<p>И наконец, зачем изучать, если не собираешься быть музыкантом? Когда слушаешь музыкальное произведение, то полезно уметь его характеризовать, знать, из чего оно состоит, к какому жанру относится. Хороший вкус ещё никому не был помехой, а умение выбирать качественный контент высоко ценится в современном обществе.</p>
+					<p>Итак, с чего начать? Прежде всего, следует изучить <a href="teoriya-muzyki.html">теорию музыки</a>. Без неё никак. Просто представьте себе хирурга на операции, который не знаком с медицинской терминологией: «Девушка, передайте мне тот острый ножичек, нужно разрезать этого дяденьку». Или шофёра, который садиться за руль и не знает, где какая кнопка за что отвечает. Согласитесь, это нелепо.</p>
+					<p>С помощью <a href="teoriya-muzyki-osnovy.html">учебника</a> Вы изучите предмет с нуля, <a href="teoriya-muzyki-stati.html">статьи по теории музыки</a> расширят Ваш музыкальный кругозор, а <a href="teoriya-muzyki-slovar.html">словарь музыкальных терминов</a> поможет Вам освежить в памяти те или иные понятия.</p>
+				</div>
+			</article>
+		</div>
+		<div class="clear"></div>
+	</main>
+	
+	
+	<!-- ********** Подвал ********** -->
+	<footer>
+		<div id="footer">
+			<p class="copyright"><i>Copyright &copy;</i>
+				2019, Владислав Назаров. Все права защищены
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

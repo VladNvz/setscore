@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Учебник теории музыки</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Владислав Назаров">
+	<meta name="description" content="С помощью данного учебника можно освоить теорию музыки с нуля" />
+	<meta name="keywords" content="учебник теории музыки, теория музыки с нуля" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	
+	<!-- ********** CSS ********** -->
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+	<!-- ********** Шапка сайта ********** -->
+	<div id="header">
+		
+		<header><h2><a href="index.html">[setScore.ru]</a></h2></header>
+		
+		<div id="search">
+			<form name="search" action="/search" method="get">
+				<input type="search" name="query" placeholder="Поиск">
+				<input type="submit" value="">
+			</form>
+		</div>
+		
+		<div id="auth_panel">
+			<label id="label_login_field" for="checkbox">Войти</label>
+			<input type="checkbox" id="checkbox">
+			<form name="auth" id="auth" action="/login" method="post">
+				<label id="label_login" for="login"></label>
+					<input type="text" name="login" id="login" placeholder="Логин" required /><br />
+				
+				<label id="label_password" for="password"></label>
+					<input type="password" name="password" id="password" placeholder="Пароль" required /><br />
+				
+				<label id="label_remember">
+					<input type="checkbox" name="remember"><span>Запомнить</span>
+				</label><br />
+				
+				<input type="submit" value="Войти"><br />
+				<div id="auth_links">
+					<a href="/reg">Регистрация</a><br />
+					<a href="/remind_login">Напомнить логин</a><br />
+					<a href="/reset_password">Заменить пароль</a>
+				</div>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	
+	<!-- ********** Середина сайта ********** -->
+	<aside>
+		<div id="left">
+			<div class="catbox">
+				<div class="catbox_header">Уроки и статьи</div>
+				<div class="catbox_content">
+					<ul>
+						<li><a href="teoriya-muzyki.html">Теория музыки</a></li>
+						<li>
+							<ul>
+								<li><a href="teoriya-muzyki-osnovy.html">Учебник теории музыки</a></li>
+								<li><a href="teoriya-muzyki-stati.html">Статьи по теории музыки</a></li>
+								<li><a href="teoriya-muzyki-slovar.html">Словарь теории музыки</a></li>
+							</ul>
+						</li>
+						<li><a href="garmoniya.html">Гармония</a></li>
+						<li>
+							<ul>
+								<li><a href="garmoniya-osnovy.html">Учебник гармонии</a></li>
+								<li><a href="garmoniya-stati.html">Статьи по гармонии</a></li>
+								<li><a href="garmoniya-zadachi.html">Задачи по гармонии</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</aside>
+	
+	<main>
+		<div id="main">
+			<h1>Учебник теории музыки</h1>
+			<article>
+				<div id="article">
+					<ul id="teech_book">
+						<li class="chapter">Глава 1. Музыкальная акустика</li>
+						<li>
+							<ul>
+								<li><a href="svojstva-zvuka.html">&#167;1. Звук и его свойства</a></li>
+								<li><a href="oberton.html">&#167;2. Обертон</a></li>
+								<li><a href="zvuki-muzykalnye-i-shumovye.html">&#167;3. Звуки музыкальные и шумовые</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</div>
+		<div class="clear"></div>
+	</main>
+	
+	
+	<!-- ********** Подвал ********** -->
+	<footer>
+		<div id="footer">
+			<p class="copyright"><i>Copyright &copy;</i>
+				2019, Владислав Назаров. Все права защищены
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
